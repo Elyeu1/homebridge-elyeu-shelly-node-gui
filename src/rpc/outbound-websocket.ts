@@ -34,7 +34,7 @@ export interface OutboundWebSocketOptions {
  */
 const DEFAULT_SERVER_OPTIONS: Readonly<OutboundWebSocketOptions> = {
   port: 8765,
-  clientId: 'node-shellies-ng-' + Math.round(Math.random() * 1000000),
+  clientId: 'homebridge-elyeu-shelly-node-gui-' + Math.round(Math.random() * 1000000),
   requestTimeout: 10,
 };
 

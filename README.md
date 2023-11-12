@@ -36,7 +36,7 @@ import {
   MdnsDeviceDiscoverer,
   Shellies,
   ShellyPlus1,
-} from 'shellies-ng';
+} from 'homebridge-elyeu-shelly-node-gui';
 
 const shellies = new Shellies();
 
